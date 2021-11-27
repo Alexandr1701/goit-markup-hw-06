@@ -55,9 +55,7 @@ a {
   text-decoration: none;
 }
 
-
 /* Logo */
-
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -74,10 +72,7 @@ a {
 .logo-studio {
   color: var(--title-text-color);
 }
-
-
 /* Navbar */
-
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -95,9 +90,7 @@ a {
   height: 12px;
 }
 
-
 /* Site nav */
-
 .site-nav {
   display: flex;
   margin: 0;
@@ -138,7 +131,6 @@ a {
   color: var(--accent-text);
 }
 
-
 /* Auth-nav */
 
 .auth-nav {
@@ -176,9 +168,7 @@ a {
   fill: currentColor;
 }
 
-
 /* Hero */
-
 .hero {
   text-align: center;
   padding-top: 200px;
@@ -193,7 +183,11 @@ a {
   height: 600px;
   margin-right: auto;
   margin-left: auto;
-  background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/imghero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -217,9 +211,7 @@ a {
   margin-top: 30px;
 }
 
-
 /* Features */
-
 .features {
   display: flex;
 }
@@ -259,7 +251,6 @@ a {
   margin: -1px;
 }
 
-
 /* Section */
 
 .section {
@@ -276,7 +267,6 @@ a {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 
 /* Work */
 
@@ -296,7 +286,6 @@ a {
 .img-work:not(:last-child) {
   margin-right: 30px;
 }
-
 .img-work-box {
   position: relative;
 }
@@ -315,9 +304,7 @@ a {
   text-align: center;
 }
 
-
 /* Team */
-
 .section-team {
   background-color: #f5f4fa;
 }
@@ -335,7 +322,8 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
@@ -370,7 +358,8 @@ a {
   padding: 12px;
   color: #afb1b8;
   border-radius: 50%;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-item:hover,
@@ -382,7 +371,6 @@ a {
 .team-icon {
   fill: currentColor;
 }
-
 
 /* Clients */
 
@@ -407,7 +395,8 @@ a {
   border-radius: 4px;
   color: #afb1b8;
   padding: 16px 32px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
@@ -420,9 +409,7 @@ a {
   fill: currentColor;
 }
 
-
 /* Footer */
-
 .footer {
   background-color: var(--secondary-bc-color);
   padding-top: 60px;
@@ -462,7 +449,6 @@ a {
 .address-link:focus {
   color: var(--accent-text);
 }
-
 address {
   font-style: normal;
 }
@@ -501,7 +487,6 @@ address {
   fill: var(--primery-white-color);
 }
 
-
 /* Button */
 
 button {
@@ -521,7 +506,6 @@ button {
   min-width: 200px;
   border-radius: 4px;
 }
-
 
 /* Portfolio */
 
@@ -553,7 +537,8 @@ button {
 .filter-button:focus {
   background-color: var(--accent-text);
   color: var(--primery-white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-work {
@@ -563,13 +548,11 @@ button {
   margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
 }
-
 .portfolio-item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
 }
-
 .portfolio-work-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -577,7 +560,8 @@ button {
 
 .portfolio-work-link:hover,
 .portfolio-work-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-work-title {
@@ -587,13 +571,11 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
 .portfolio-work-text {
   color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.9;
 }
-
 .card-content {
   border: 1px solid #eeeeee;
   border-top: none;
@@ -603,7 +585,6 @@ button {
   padding-top: 20px;
   padding-right: 24px;
 }
-
 .card-content {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
@@ -634,7 +615,6 @@ button {
 .card:hover .card-thumb-box {
   transform: translateY(0);
 }
-
 
 /* Модальное окно */
 
@@ -680,17 +660,11 @@ button {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
   background-color: var(--primery-white-color);
   border-style: none;
   padding: 0;
   fill: #000000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 18px;
-  height: 18px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  border-radius: 50%;
 }
 
 .modal-button:hover,
@@ -699,8 +673,9 @@ button {
 }
 
 .modal-svg {
-  justify-content: center;
-  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50%;
 }
 
 .form-modal-text {
@@ -752,7 +727,6 @@ button {
   border-radius: 4px;
   padding-left: 42px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  resize: none;
 }
 
 .modal-input:focus {
@@ -815,21 +789,14 @@ button {
   margin-right: 7px;
 }
 
+.checkbox-icon:focus {
+  color: var(--accent-text);
+}
+
 .form-modal-checkbox:checked~.checkbox-icon {
   background-color: var(--accent-text);
   border: 2px solid var(--accent-text);
   background-size: contain;
-}
-
-.form-modal-checkbox:focus~.checkbox-icon {
-  background-color: var(--accent-text);
-  border-color: var(--accent-text);
-  background-size: contain;
-}
-
-.form-modal-checkbox:checked~.checkbox-text {
-  color: var(--accent-text);
-  text-decoration: underline;
 }
 
 .modal-form-button {
